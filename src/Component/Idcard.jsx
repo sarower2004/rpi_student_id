@@ -43,7 +43,7 @@ const Idcard = () => {
 
 
         <div className="">
-            <div className=' flex flex-col items-center w-[205px] h-[335px] rounded-lg mt-4 overflow-hidden border-2 border-black'>
+            <div className=' flex flex-col items-center w-[205px] h-[335px] rounded-lg mt-4 overflow-hidden border-2 border-black bg-[url("/back_logo.png")] bg-contain bg-no-repeat '>
             <header className='w-full h-[4%] bg-red-500'></header>
             <div className='mt-[10px] w-[90%] h-[10%] bg-green-800 rounded-lg'>
                 <p className='text-[12px] text-white font-bold text-center pt-[4px]'>This Card is not transferable</p>
@@ -55,7 +55,7 @@ const Idcard = () => {
 
             <div className='text-[10px] font-bold'>
                 <p className='whitespace-pre'><span className='text-[#01cc4f] font-bold'>Father's Name</span>   : MD. HAIDAR ALI</p>
-                <p className='whitespace-pre'><span className='text-[#01cc4f] font-bold'>Mohter's Name </span>: MST. SUBARNA BEGUM</p>
+                <p className='whitespace-pre'><span className='text-[#01cc4f] font-bold'>Mother's Name </span>: MST. SUBARNA BEGUM</p>
                 <p className='whitespace-pre'><span className='text-[#01cc4f] font-bold'>Contact No</span>        : 01828782414</p>
                 <p className='whitespace-pre text-red-500'>Blood group      : O(+ve)</p>
             </div> 

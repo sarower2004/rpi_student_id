@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'back_logo': "url('/back_logo.png')",
+        '50%': '50%',
+      '16': '4rem',
+      },
       rotate: {
         '-45': '45deg',
       }
